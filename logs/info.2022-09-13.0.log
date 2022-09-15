@@ -1,0 +1,39 @@
+2022-09-13 16:35:52.648 [main]  INFO  com.one.place.OneplaceApplication [] - Starting OneplaceApplication using Java 1.8.0_302 on C02FKAKBMD6M with PID 20239 (/Users/songzilong/workspace/place/place-api/target/classes started by songzilong in /Users/songzilong/workspace/place)
+2022-09-13 16:35:52.644 [background-preinit]  INFO  org.hibernate.validator.internal.util.Version [] - HV000001: Hibernate Validator 6.2.4.Final
+2022-09-13 16:35:52.652 [main]  INFO  com.one.place.OneplaceApplication [] - No active profile set, falling back to 1 default profile: "default"
+2022-09-13 16:35:53.532 [main]  INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer [] - Tomcat initialized with port(s): 9000 (http)
+2022-09-13 16:35:53.619 [main]  INFO  o.s.b.w.s.c.ServletWebServerApplicationContext [] - Root WebApplicationContext: initialization completed in 900 ms
+2022-09-13 16:35:54.036 [main]  INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer [] - Tomcat started on port(s): 9000 (http) with context path ''
+2022-09-13 16:35:54.044 [main]  INFO  com.one.place.OneplaceApplication [] - Started OneplaceApplication in 2.018 seconds (JVM running for 2.764)
+2022-09-13 16:36:10.232 [background-preinit]  INFO  org.hibernate.validator.internal.util.Version [] - HV000001: Hibernate Validator 6.2.4.Final
+2022-09-13 16:36:10.237 [main]  INFO  com.one.place.OneplaceApplication [] - Starting OneplaceApplication using Java 1.8.0_302 on C02FKAKBMD6M with PID 20270 (/Users/songzilong/workspace/place/place-api/target/classes started by songzilong in /Users/songzilong/workspace/place)
+2022-09-13 16:36:10.238 [main]  INFO  com.one.place.OneplaceApplication [] - No active profile set, falling back to 1 default profile: "default"
+2022-09-13 16:36:10.998 [main]  INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer [] - Tomcat initialized with port(s): 9000 (http)
+2022-09-13 16:36:11.070 [main]  INFO  o.s.b.w.s.c.ServletWebServerApplicationContext [] - Root WebApplicationContext: initialization completed in 787 ms
+2022-09-13 16:36:11.391 [main]  INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer [] - Tomcat started on port(s): 9000 (http) with context path ''
+2022-09-13 16:36:11.399 [main]  INFO  com.one.place.OneplaceApplication [] - Started OneplaceApplication in 1.639 seconds (JVM running for 2.3)
+2022-09-13 16:44:00.591 [background-preinit]  INFO  org.hibernate.validator.internal.util.Version [] - HV000001: Hibernate Validator 6.2.4.Final
+2022-09-13 16:44:00.592 [main]  INFO  com.one.place.OneplaceApplication [] - Starting OneplaceApplication using Java 1.8.0_302 on C02FKAKBMD6M with PID 20536 (/Users/songzilong/workspace/place/place-api/target/classes started by songzilong in /Users/songzilong/workspace/place)
+2022-09-13 16:44:00.595 [main]  INFO  com.one.place.OneplaceApplication [] - No active profile set, falling back to 1 default profile: "default"
+2022-09-13 16:44:01.633 [main]  INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer [] - Tomcat initialized with port(s): 9000 (http)
+2022-09-13 16:44:01.722 [main]  INFO  o.s.b.w.s.c.ServletWebServerApplicationContext [] - Root WebApplicationContext: initialization completed in 1083 ms
+2022-09-13 16:44:02.049 [main]  INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping [] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-09-13 16:44:02.237 [main]  INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer [] - Tomcat started on port(s): 9000 (http) with context path ''
+2022-09-13 16:44:02.237 [main]  INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper [] - Context refreshed
+2022-09-13 16:44:02.249 [main]  INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper [] - Found 1 custom documentation plugin(s)
+2022-09-13 16:44:02.272 [main]  INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener [] - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-09-13 16:52:00.264 [background-preinit]  INFO  org.hibernate.validator.internal.util.Version [] - HV000001: Hibernate Validator 6.2.4.Final
+2022-09-13 16:52:00.264 [main]  INFO  com.one.place.OneplaceApplication [] - Starting OneplaceApplication using Java 1.8.0_302 on C02FKAKBMD6M with PID 20977 (/Users/songzilong/workspace/place/place-api/target/classes started by songzilong in /Users/songzilong/workspace/place)
+2022-09-13 16:52:00.267 [main]  INFO  com.one.place.OneplaceApplication [] - No active profile set, falling back to 1 default profile: "default"
+2022-09-13 16:52:01.239 [main]  INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer [] - Tomcat initialized with port(s): 9000 (http)
+2022-09-13 16:52:01.326 [main]  INFO  o.s.b.w.s.c.ServletWebServerApplicationContext [] - Root WebApplicationContext: initialization completed in 1017 ms
+2022-09-13 16:52:01.748 [main]  INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping [] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-09-13 16:52:01.850 [main]  INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer [] - Tomcat started on port(s): 9000 (http) with context path ''
+2022-09-13 16:52:01.851 [main]  INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper [] - Context refreshed
+2022-09-13 16:52:01.862 [main]  INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper [] - Found 1 custom documentation plugin(s)
+2022-09-13 16:52:01.886 [main]  INFO  s.d.spring.web.scanners.ApiListingReferenceScanner [] - Scanning for api listing references
+2022-09-13 16:52:01.981 [main]  INFO  com.one.place.OneplaceApplication [] - Started OneplaceApplication in 2.138 seconds (JVM running for 2.729)
+2022-09-13 16:52:18.706 [http-nio-9000-exec-1]  INFO  org.springframework.web.servlet.DispatcherServlet [] - Initializing Servlet 'dispatcherServlet'
+2022-09-13 16:52:18.708 [http-nio-9000-exec-1]  INFO  org.springframework.web.servlet.DispatcherServlet [] - Completed initialization in 1 ms

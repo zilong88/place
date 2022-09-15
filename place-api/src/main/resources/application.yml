@@ -1,0 +1,12 @@
+server:
+  port: 9000
+place:
+  swagger:
+    enable: true
+
+logging:
+  level:
+    root: INFO
+    org.springframework: INFO
+  file:
+    path: logs

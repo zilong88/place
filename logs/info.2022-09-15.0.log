@@ -1,0 +1,91 @@
+2022-09-15 14:25:46.167 [background-preinit]  INFO  org.hibernate.validator.internal.util.Version [] - HV000001: Hibernate Validator 6.2.4.Final
+2022-09-15 14:25:46.175 [main]  INFO  com.one.place.OneplaceApplication [] - Starting OneplaceApplication using Java 1.8.0_302 on C02FKAKBMD6M with PID 23584 (/Users/songzilong/workspace/place/place-api/target/classes started by songzilong in /Users/songzilong/workspace/place)
+2022-09-15 14:25:46.178 [main]  INFO  com.one.place.OneplaceApplication [] - No active profile set, falling back to 1 default profile: "default"
+2022-09-15 14:25:47.112 [main]  INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer [] - Tomcat initialized with port(s): 9000 (http)
+2022-09-15 14:25:47.196 [main]  INFO  o.s.b.w.s.c.ServletWebServerApplicationContext [] - Root WebApplicationContext: initialization completed in 949 ms
+2022-09-15 14:25:47.721 [main]  INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping [] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-09-15 14:25:47.846 [main]  INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer [] - Tomcat started on port(s): 9000 (http) with context path ''
+2022-09-15 14:25:47.847 [main]  INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper [] - Context refreshed
+2022-09-15 14:25:47.863 [main]  INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper [] - Found 1 custom documentation plugin(s)
+2022-09-15 14:25:47.891 [main]  INFO  s.d.spring.web.scanners.ApiListingReferenceScanner [] - Scanning for api listing references
+2022-09-15 14:25:48.035 [main]  INFO  com.one.place.OneplaceApplication [] - Started OneplaceApplication in 2.559 seconds (JVM running for 3.301)
+2022-09-15 14:26:02.706 [http-nio-9000-exec-3]  INFO  org.springframework.web.servlet.DispatcherServlet [] - Initializing Servlet 'dispatcherServlet'
+2022-09-15 14:26:02.707 [http-nio-9000-exec-3]  INFO  org.springframework.web.servlet.DispatcherServlet [] - Completed initialization in 1 ms
+2022-09-15 14:26:48.320 [background-preinit]  INFO  org.hibernate.validator.internal.util.Version [] - HV000001: Hibernate Validator 6.2.4.Final
+2022-09-15 14:26:48.334 [main]  INFO  com.one.place.OneplaceApplication [] - Starting OneplaceApplication using Java 1.8.0_302 on C02FKAKBMD6M with PID 23630 (/Users/songzilong/workspace/place/place-api/target/classes started by songzilong in /Users/songzilong/workspace/place)
+2022-09-15 14:26:48.337 [main]  INFO  com.one.place.OneplaceApplication [] - No active profile set, falling back to 1 default profile: "default"
+2022-09-15 14:26:49.733 [main]  INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer [] - Tomcat initialized with port(s): 9000 (http)
+2022-09-15 14:26:49.824 [main]  INFO  o.s.b.w.s.c.ServletWebServerApplicationContext [] - Root WebApplicationContext: initialization completed in 1382 ms
+2022-09-15 14:26:50.249 [main]  INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping [] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-09-15 14:26:50.363 [main]  INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer [] - Tomcat started on port(s): 9000 (http) with context path ''
+2022-09-15 14:26:50.364 [main]  INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper [] - Context refreshed
+2022-09-15 14:26:50.378 [main]  INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper [] - Found 1 custom documentation plugin(s)
+2022-09-15 14:26:50.407 [main]  INFO  s.d.spring.web.scanners.ApiListingReferenceScanner [] - Scanning for api listing references
+2022-09-15 14:26:50.518 [main]  INFO  com.one.place.OneplaceApplication [] - Started OneplaceApplication in 2.926 seconds (JVM running for 3.553)
+2022-09-15 14:27:02.719 [http-nio-9000-exec-1]  INFO  org.springframework.web.servlet.DispatcherServlet [] - Initializing Servlet 'dispatcherServlet'
+2022-09-15 14:27:02.720 [http-nio-9000-exec-1]  INFO  org.springframework.web.servlet.DispatcherServlet [] - Completed initialization in 1 ms
+2022-09-15 14:34:52.832 [main]  INFO  com.one.place.OneplaceApplication [] - Starting OneplaceApplication using Java 1.8.0_302 on C02FKAKBMD6M with PID 24082 (/Users/songzilong/workspace/place/place-api/target/classes started by songzilong in /Users/songzilong/workspace/place)
+2022-09-15 14:34:52.832 [background-preinit]  INFO  org.hibernate.validator.internal.util.Version [] - HV000001: Hibernate Validator 6.2.4.Final
+2022-09-15 14:34:52.835 [main]  INFO  com.one.place.OneplaceApplication [] - No active profile set, falling back to 1 default profile: "default"
+2022-09-15 14:34:53.924 [main]  INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer [] - Tomcat initialized with port(s): 9000 (http)
+2022-09-15 14:34:54.002 [main]  INFO  o.s.b.w.s.c.ServletWebServerApplicationContext [] - Root WebApplicationContext: initialization completed in 1129 ms
+2022-09-15 14:34:54.472 [main]  INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping [] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-09-15 14:34:54.565 [main]  INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer [] - Tomcat started on port(s): 9000 (http) with context path ''
+2022-09-15 14:34:54.566 [main]  INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper [] - Context refreshed
+2022-09-15 14:34:54.578 [main]  INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper [] - Found 1 custom documentation plugin(s)
+2022-09-15 14:34:54.603 [main]  INFO  s.d.spring.web.scanners.ApiListingReferenceScanner [] - Scanning for api listing references
+2022-09-15 14:34:54.697 [main]  INFO  com.one.place.OneplaceApplication [] - Started OneplaceApplication in 2.386 seconds (JVM running for 3.125)
+2022-09-15 14:35:01.446 [http-nio-9000-exec-1]  INFO  org.springframework.web.servlet.DispatcherServlet [] - Initializing Servlet 'dispatcherServlet'
+2022-09-15 14:35:01.448 [http-nio-9000-exec-1]  INFO  org.springframework.web.servlet.DispatcherServlet [] - Completed initialization in 1 ms
+2022-09-15 14:40:16.656 [background-preinit]  INFO  org.hibernate.validator.internal.util.Version [] - HV000001: Hibernate Validator 6.2.4.Final
+2022-09-15 14:40:16.656 [main]  INFO  com.one.place.OneplaceApplication [] - Starting OneplaceApplication using Java 1.8.0_302 on C02FKAKBMD6M with PID 24325 (/Users/songzilong/workspace/place/place-api/target/classes started by songzilong in /Users/songzilong/workspace/place)
+2022-09-15 14:40:16.661 [main]  INFO  com.one.place.OneplaceApplication [] - No active profile set, falling back to 1 default profile: "default"
+2022-09-15 14:40:17.643 [main]  INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer [] - Tomcat initialized with port(s): 9000 (http)
+2022-09-15 14:40:17.722 [main]  INFO  o.s.b.w.s.c.ServletWebServerApplicationContext [] - Root WebApplicationContext: initialization completed in 989 ms
+2022-09-15 14:40:18.149 [main]  INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping [] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-09-15 14:40:18.267 [main]  INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer [] - Tomcat started on port(s): 9000 (http) with context path ''
+2022-09-15 14:40:18.268 [main]  INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper [] - Context refreshed
+2022-09-15 14:40:18.279 [main]  INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper [] - Found 1 custom documentation plugin(s)
+2022-09-15 14:40:18.302 [main]  INFO  s.d.spring.web.scanners.ApiListingReferenceScanner [] - Scanning for api listing references
+2022-09-15 14:40:18.396 [main]  INFO  com.one.place.OneplaceApplication [] - Started OneplaceApplication in 2.36 seconds (JVM running for 3.002)
+2022-09-15 14:40:22.175 [http-nio-9000-exec-1]  INFO  org.springframework.web.servlet.DispatcherServlet [] - Initializing Servlet 'dispatcherServlet'
+2022-09-15 14:40:22.176 [http-nio-9000-exec-1]  INFO  org.springframework.web.servlet.DispatcherServlet [] - Completed initialization in 1 ms
+2022-09-15 14:43:58.124 [background-preinit]  INFO  org.hibernate.validator.internal.util.Version [] - HV000001: Hibernate Validator 6.2.4.Final
+2022-09-15 14:43:58.132 [main]  INFO  com.one.place.OneplaceApplication [] - Starting OneplaceApplication using Java 1.8.0_302 on C02FKAKBMD6M with PID 24483 (/Users/songzilong/workspace/place/place-api/target/classes started by songzilong in /Users/songzilong/workspace/place)
+2022-09-15 14:43:58.134 [main]  INFO  com.one.place.OneplaceApplication [] - No active profile set, falling back to 1 default profile: "default"
+2022-09-15 14:43:59.559 [main]  INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer [] - Tomcat initialized with port(s): 9000 (http)
+2022-09-15 14:43:59.792 [main]  INFO  o.s.b.w.s.c.ServletWebServerApplicationContext [] - Root WebApplicationContext: initialization completed in 1555 ms
+2022-09-15 14:44:00.469 [main]  INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping [] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-09-15 14:44:00.589 [main]  INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer [] - Tomcat started on port(s): 9000 (http) with context path ''
+2022-09-15 14:44:00.590 [main]  INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper [] - Context refreshed
+2022-09-15 14:44:00.607 [main]  INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper [] - Found 1 custom documentation plugin(s)
+2022-09-15 14:44:00.641 [main]  INFO  s.d.spring.web.scanners.ApiListingReferenceScanner [] - Scanning for api listing references
+2022-09-15 14:44:00.798 [main]  INFO  com.one.place.OneplaceApplication [] - Started OneplaceApplication in 3.284 seconds (JVM running for 3.984)
+2022-09-15 14:44:03.077 [http-nio-9000-exec-1]  INFO  org.springframework.web.servlet.DispatcherServlet [] - Initializing Servlet 'dispatcherServlet'
+2022-09-15 14:44:03.078 [http-nio-9000-exec-1]  INFO  org.springframework.web.servlet.DispatcherServlet [] - Completed initialization in 0 ms
+2022-09-15 14:55:47.125 [background-preinit]  INFO  org.hibernate.validator.internal.util.Version [] - HV000001: Hibernate Validator 6.2.4.Final
+2022-09-15 14:55:47.128 [main]  INFO  com.one.place.OneplaceApplication [] - Starting OneplaceApplication using Java 1.8.0_302 on C02FKAKBMD6M with PID 25012 (/Users/songzilong/workspace/place/place-api/target/classes started by songzilong in /Users/songzilong/workspace/place)
+2022-09-15 14:55:47.129 [main]  INFO  com.one.place.OneplaceApplication [] - No active profile set, falling back to 1 default profile: "default"
+2022-09-15 14:55:48.190 [main]  INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer [] - Tomcat initialized with port(s): 9000 (http)
+2022-09-15 14:55:48.260 [main]  INFO  o.s.b.w.s.c.ServletWebServerApplicationContext [] - Root WebApplicationContext: initialization completed in 1086 ms
+2022-09-15 14:55:48.896 [main]  INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping [] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-09-15 14:55:49.154 [main]  INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer [] - Tomcat started on port(s): 9000 (http) with context path ''
+2022-09-15 14:55:49.155 [main]  INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper [] - Context refreshed
+2022-09-15 14:55:49.174 [main]  INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper [] - Found 1 custom documentation plugin(s)
+2022-09-15 14:55:49.213 [main]  INFO  s.d.spring.web.scanners.ApiListingReferenceScanner [] - Scanning for api listing references
+2022-09-15 14:55:49.389 [main]  INFO  com.one.place.OneplaceApplication [] - Started OneplaceApplication in 3.103 seconds (JVM running for 3.915)
+2022-09-15 14:55:53.833 [http-nio-9000-exec-1]  INFO  org.springframework.web.servlet.DispatcherServlet [] - Initializing Servlet 'dispatcherServlet'
+2022-09-15 14:55:53.834 [http-nio-9000-exec-1]  INFO  org.springframework.web.servlet.DispatcherServlet [] - Completed initialization in 0 ms
+2022-09-15 14:56:50.805 [background-preinit]  INFO  org.hibernate.validator.internal.util.Version [] - HV000001: Hibernate Validator 6.2.4.Final
+2022-09-15 14:56:50.809 [main]  INFO  com.one.place.OneplaceApplication [] - Starting OneplaceApplication using Java 1.8.0_302 on C02FKAKBMD6M with PID 25055 (/Users/songzilong/workspace/place/place-api/target/classes started by songzilong in /Users/songzilong/workspace/place)
+2022-09-15 14:56:50.809 [main]  INFO  com.one.place.OneplaceApplication [] - No active profile set, falling back to 1 default profile: "default"
+2022-09-15 14:56:51.726 [main]  INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer [] - Tomcat initialized with port(s): 9000 (http)
+2022-09-15 14:56:51.793 [main]  INFO  o.s.b.w.s.c.ServletWebServerApplicationContext [] - Root WebApplicationContext: initialization completed in 938 ms
+2022-09-15 14:56:52.237 [main]  INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping [] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-09-15 14:56:52.325 [main]  INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer [] - Tomcat started on port(s): 9000 (http) with context path ''
+2022-09-15 14:56:52.326 [main]  INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper [] - Context refreshed
+2022-09-15 14:56:52.337 [main]  INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper [] - Found 1 custom documentation plugin(s)
+2022-09-15 14:56:52.359 [main]  INFO  s.d.spring.web.scanners.ApiListingReferenceScanner [] - Scanning for api listing references
+2022-09-15 14:56:52.443 [main]  INFO  com.one.place.OneplaceApplication [] - Started OneplaceApplication in 2.198 seconds (JVM running for 2.852)
+2022-09-15 14:57:15.437 [http-nio-9000-exec-1]  INFO  org.springframework.web.servlet.DispatcherServlet [] - Initializing Servlet 'dispatcherServlet'
+2022-09-15 14:57:15.438 [http-nio-9000-exec-1]  INFO  org.springframework.web.servlet.DispatcherServlet [] - Completed initialization in 1 ms
