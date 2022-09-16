@@ -4,6 +4,7 @@ import java.nio.charset.StandardCharsets;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.support.ReloadableResourceBundleMessageSource;
+import org.springframework.validation.Validator;
 import org.springframework.validation.beanvalidation.LocalValidatorFactoryBean;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 @Configuration
@@ -25,19 +26,25 @@ public class WebMvcConfig implements WebMvcConfigurer {
     return rbms;
   }
 
-  /**
-   * 国际化配置
-   * @param resourceBundleMessageSource
-   * @return
-   */
-  @Bean
-  public LocalValidatorFactoryBean validator(
-      ReloadableResourceBundleMessageSource resourceBundleMessageSource) {
+  @Override
+  public Validator getValidator() {
     LocalValidatorFactoryBean bean = new LocalValidatorFactoryBean();
-    bean.setValidationMessageSource(resourceBundleMessageSource);
+    bean.setValidationMessageSource(resourceBundleMessageSource());
     return bean;
   }
 
-
+//  /**
+//   * 国际化配置
+//   *
+//   * @param resourceBundleMessageSource
+//   * @return
+//   */
+//  public LocalValidatorFactoryBean validator(
+//      ReloadableResourceBundleMessageSource resourceBundleMessageSource) {
+//    LocalValidatorFactoryBean bean = new LocalValidatorFactoryBean();
+//    bean.setValidationMessageSource(resourceBundleMessageSource);
+//    return bean;
+//  }
+  
 
 }

@@ -63,7 +63,7 @@ public class GlobalExceptionHandler {
     FieldError fe = exception.getBindingResult().getFieldError();
     if (fe != null) {
       String fieldName = fe.getField();
-      return ApiResponseWithField.withField( i18nService.getI18Message(fe.getDefaultMessage(), null), "", fieldName);
+      return ApiResponseWithField.withField(fe.getDefaultMessage(), "", fieldName);
     }
     String i18Message = i18nService.getI18Message(errorMsgCode, null);
     return ApiResponse.error(i18Message);
@@ -78,7 +78,7 @@ public class GlobalExceptionHandler {
     if (analysis.getDescription() == null) {
       log.warn("api error handler : " + ex.getMessage(), ex);
     } else {
-      log.warn(analysis.getDescription());
+      log.warn(analysis.getDescription(), ex);
     }
   }
 }

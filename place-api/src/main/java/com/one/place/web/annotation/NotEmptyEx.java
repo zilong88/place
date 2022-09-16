@@ -41,7 +41,7 @@ public @interface NotEmptyEx {
    */
   boolean acceptNull() default false;
 
-  String message() default "com.annotation.NotEmptyEx.message";
+  String message() default "{com.annotation.NotEmptyEx.message}";
 
   Class<?>[] groups() default {};
 

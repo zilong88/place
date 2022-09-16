@@ -45,7 +45,7 @@ public class NotEmptyExValidation implements ConstraintValidator<NotEmptyEx, Obj
       return false;
     }
     // 不允许为空白字符
-    if (!constraint.acceptBlank() && StringUtils.hasText(charSequence)) {
+    if (!constraint.acceptBlank() && !StringUtils.hasText(charSequence)) {
       return false;
     }
     // 不允许包含空白字符
