@@ -13,6 +13,10 @@ public enum ApiErrors {
    * 参数错误
    */
   BAD_ARGUMENT_ERROR,
+  /**
+   * 必须登录
+   */
+  MUST_LOGIN,
 
   SYSTEM_ERROR;
 

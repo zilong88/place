@@ -21,6 +21,7 @@ public class ApiResponseWithField<T> extends ApiResponse<T> {
     ApiResponseWithField<T> response = new ApiResponseWithField<>();
     response.setCode(STATUS_ERROR);
     response.setErrField(errField);
+    response.setErrorCode(errCode);
     response.setMessage(errMsg);
     return response;
   }

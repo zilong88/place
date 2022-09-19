@@ -13,10 +13,11 @@ public class ApiResponse<T> implements Serializable {
   protected static final int STATUS_OK = 0;
 
 
-
   @ApiModelProperty(value = "响应状态", allowableValues = STATUS_OK + ","
       + STATUS_ERROR, required = true)
   private Integer code;
+
+  private String errorCode;
 
   @ApiModelProperty(value = "错误信息", dataType = "string")
   @JsonInclude(JsonInclude.Include.NON_NULL)
@@ -37,9 +38,10 @@ public class ApiResponse<T> implements Serializable {
     return response;
   }
 
-  public static <K> ApiResponse<K> error(String errMsg) {
+  public static <K> ApiResponse<K> error(String errMsg, String errorCode) {
     ApiResponse<K> response = new ApiResponse<>();
     response.code = STATUS_ERROR;
+    response.errorCode = errorCode;
     response.message = errMsg;
     response.data = null;
     return response;
@@ -69,4 +71,11 @@ public class ApiResponse<T> implements Serializable {
     return data;
   }
 
+  public String getErrorCode() {
+    return errorCode;
+  }
+
+  public void setErrorCode(String errorCode) {
+    this.errorCode = errorCode;
+  }
 }

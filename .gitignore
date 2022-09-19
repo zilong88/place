@@ -31,3 +31,5 @@ build/
 
 ### VS Code ###
 .vscode/
+place-api/src/main/resources/application-dev.yml
+logs/

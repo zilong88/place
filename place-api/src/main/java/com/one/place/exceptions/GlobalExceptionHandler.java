@@ -38,7 +38,7 @@ public class GlobalExceptionHandler {
     ApiErrors error = exception.getError();
     String errorMsgCode = error.getErrorMsgCode();
     String errMsg = i18nService.getI18Message(errorMsgCode, exception.getArgsHolder());
-    return ApiResponse.error(errMsg);
+    return ApiResponse.error(errMsg, errorMsgCode);
   }
 
   @ExceptionHandler(value = ConstraintViolationException.class)
@@ -63,10 +63,10 @@ public class GlobalExceptionHandler {
     FieldError fe = exception.getBindingResult().getFieldError();
     if (fe != null) {
       String fieldName = fe.getField();
-      return ApiResponseWithField.withField(fe.getDefaultMessage(), "", fieldName);
+      return ApiResponseWithField.withField(fe.getDefaultMessage(), errorMsgCode, fieldName);
     }
     String i18Message = i18nService.getI18Message(errorMsgCode, null);
-    return ApiResponse.error(i18Message);
+    return ApiResponse.error(i18Message, errorMsgCode);
   }
 
 

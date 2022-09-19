@@ -3,10 +3,12 @@ server:
 place:
   swagger:
     enable: true
-
 logging:
   level:
     root: INFO
     org.springframework: INFO
   file:
     path: logs
+spring:
+  profiles:
+    active: ${ENV_NAME:dev}
