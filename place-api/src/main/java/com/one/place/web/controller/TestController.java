@@ -2,6 +2,7 @@ package com.one.place.web.controller;
 
 import com.one.place.enums.ApiErrors;
 import com.one.place.exceptions.ApiException;
+import com.one.place.service.UserApiService;
 import com.one.place.web.req.TestReq;
 import com.one.place.web.resp.ApiResponse;
 import io.swagger.annotations.Api;
@@ -19,13 +20,25 @@ import org.springframework.web.bind.annotation.RestController;
 @Validated
 public class TestController {
 
+  private final UserApiService userApiService;
+
+  public TestController(UserApiService userApiService) {
+    this.userApiService = userApiService;
+  }
+
   @GetMapping
-  public ApiResponse<Void> testI18n(){
+  public ApiResponse<Void> testI18n() {
     throw new ApiException(ApiErrors.UNKNOWN_ERROR);
   }
 
   @PostMapping
-  public ApiResponse<Void> test2(@Valid @RequestBody TestReq req){
+  public ApiResponse<Void> test2(@Valid @RequestBody TestReq req) {
+    return ApiResponse.ok();
+  }
+
+  @PostMapping("/user")
+  public ApiResponse<Void> saveUser() {
+    userApiService.testInsert();
     return ApiResponse.ok();
   }
 }

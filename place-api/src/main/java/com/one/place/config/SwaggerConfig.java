@@ -35,7 +35,7 @@ public class SwaggerConfig implements WebMvcConfigurer {
         .groupName("test")
         .select()
         .apis(RequestHandlerSelectors.basePackage(TestController.class.getPackage().getName()))
-        .paths(ant("/test/**"))
+        .paths(ant("/**"))
         .build()
         .host(apiHost)
         .apiInfo(publicApiInfo());

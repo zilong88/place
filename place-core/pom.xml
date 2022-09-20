@@ -15,6 +15,10 @@
       <groupId>com.one</groupId>
       <artifactId>place-db</artifactId>
     </dependency>
+    <dependency>
+      <artifactId>spring-boot-starter-data-redis</artifactId>
+      <groupId>org.springframework.boot</groupId>
+    </dependency>
   </dependencies>
 
   <properties>
