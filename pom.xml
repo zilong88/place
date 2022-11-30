@@ -8,6 +8,8 @@
     <module>place-db</module>
     <module>place-api</module>
     <module>place-core</module>
+    <module>leetcode</module>
+    <module>place-im</module>
   </modules>
 
   <parent>
@@ -24,8 +26,11 @@
   <properties>
     <java.version>1.8</java.version>
     <apache.commons.lang3.version>3.7</apache.commons.lang3.version>
+    <apache.commons.collection4.version>4.4</apache.commons.collection4.version>
     <commons.codec.version>1.14</commons.codec.version>
     <baomidou.version>3.5.2</baomidou.version>
+    <wiki.xsx.version>2.10.1</wiki.xsx.version>
+    <tio.version>3.5.9.v20200214-RELEASE</tio.version>
   </properties>
 
 
@@ -49,6 +54,19 @@
         <version>${baomidou.version}</version>
       </dependency>
 
+      <!-- pdf -->
+      <dependency>
+        <groupId>wiki.xsx</groupId>
+        <artifactId>x-easypdf-pdfbox</artifactId>
+        <version>${wiki.xsx.version}</version>
+      </dependency>
+      <!-- tio-->
+      <dependency>
+        <groupId>org.t-io</groupId>
+        <artifactId>tio-core</artifactId>
+        <version>${tio.version}</version>
+      </dependency>
+
       <dependency>
         <groupId>commons-codec</groupId>
         <artifactId>commons-codec</artifactId>
@@ -59,6 +77,18 @@
         <groupId>org.apache.commons</groupId>
         <version>${apache.commons.lang3.version}</version>
       </dependency>
+      <dependency>
+        <artifactId>commons-collections4</artifactId>
+        <groupId>org.apache.commons</groupId>
+        <version>${apache.commons.collection4.version}</version>
+      </dependency>
+      <!-- https://mvnrepository.com/artifact/cn.hutool/hutool-core -->
+      <dependency>
+        <groupId>cn.hutool</groupId>
+        <artifactId>hutool-core</artifactId>
+        <version>5.8.8</version>
+      </dependency>
+
     </dependencies>
   </dependencyManagement>
 
@@ -68,6 +98,14 @@
       <plugin>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-maven-plugin</artifactId>
+        <configuration>
+          <excludes>
+            <exclude>
+              <groupId>org.springframework.boot</groupId>
+              <artifactId>spring-boot-configuration-processor</artifactId>
+            </exclude>
+          </excludes>
+        </configuration>
       </plugin>
     </plugins>
   </build>

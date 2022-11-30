@@ -1,11 +1,7 @@
 package com.one.place.entity;
 
-import com.baomidou.mybatisplus.annotation.FieldFill;
-import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableField;
-import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.annotation.TableName;
-import com.baomidou.mybatisplus.annotation.Version;
 import java.io.Serializable;
 
 /**
@@ -17,34 +13,10 @@ import java.io.Serializable;
  * @since 2022-09-19
  */
 @TableName("t_user")
-public class User implements Serializable {
+public class User extends AbstractBaseEntity implements Serializable {
 
   private static final long serialVersionUID = 1L;
 
-  /**
-   * 主键
-   */
-  @TableId(value = "f_id", type = IdType.AUTO)
-  private Long id;
-
-  /**
-   * 乐观锁主键
-   */
-  @TableField("f_version")
-  @Version
-  private Long version;
-
-  /**
-   * 创建时间
-   */
-  @TableField(value = "f_created_at", fill = FieldFill.INSERT)
-  private Long createdAt;
-
-  /**
-   * 更新时间
-   */
-  @TableField(value = "f_updated_at", fill = FieldFill.INSERT_UPDATE)
-  private Long updatedAt;
 
   /**
    * 用户头像URL
@@ -82,37 +54,6 @@ public class User implements Serializable {
   @TableField("f_type")
   private Integer type;
 
-  public Long getId() {
-    return id;
-  }
-
-  public void setId(Long id) {
-    this.id = id;
-  }
-
-  public Long getVersion() {
-    return version;
-  }
-
-  public void setVersion(Long version) {
-    this.version = version;
-  }
-
-  public Long getCreatedAt() {
-    return createdAt;
-  }
-
-  public void setCreatedAt(Long createdAt) {
-    this.createdAt = createdAt;
-  }
-
-  public Long getUpdatedAt() {
-    return updatedAt;
-  }
-
-  public void setUpdatedAt(Long updatedAt) {
-    this.updatedAt = updatedAt;
-  }
 
   public String getAvatar() {
     return avatar;
@@ -166,10 +107,10 @@ public class User implements Serializable {
   @Override
   public String toString() {
     return "User{" +
-        "id = " + id +
-        ", version = " + version +
-        ", createdAt = " + createdAt +
-        ", updatedAt = " + updatedAt +
+        "id = " + super.getId() +
+        ", version = " + super.getVersion() +
+        ", createdAt = " + super.getCreatedAt() +
+        ", updatedAt = " + super.getUpdatedAt() +
         ", avatar = " + avatar +
         ", nickName = " + nickName +
         ", cellPhone = " + cellPhone +
